@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_add_smart"
+        android:title="@string/action_settings"
+        app:showAsAction="ifRoom">
+        <menu>
+            <item
+                android:id="@+id/action_sos"
+                android:title="SOS"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/action_setting"
+                android:title="Security Setting"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/action_geofence"
+                android:title="Geofence"
+                app:showAsAction="ifRoom" />
+
+            <item
+                android:id="@+id/action_event_recording"
+                android:title="Event Recording"
+                app:showAsAction="ifRoom" />
+        </menu>
+    </item>
+
+</menu>
